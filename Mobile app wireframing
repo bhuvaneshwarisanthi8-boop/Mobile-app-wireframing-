@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile App Wireframe</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.mobile {
+    width: 320px;
+    height: 600px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.header {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.box {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.input {
+    border: 1px solid #000;
+    margin: 8px;
+    padding: 8px;
+}
+.button {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    background: #ddd;
+}
+.nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+.nav div {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="mobile">
+
+    <!-- Splash Screen -->
+    <div class="header">App Logo</div>
+    <div class="box">Welcome Screen</div>
+
+    <!-- Login -->
+    <div class="box">
+        <div class="input">Email</div>
+        <div class="input">Password</div>
+        <div class="button">Login</div>
+        <div class="button">Sign Up</div>
+    </div>
+
+    <!-- Home -->
+    <div class="header">Home</div>
+    <div class="box">Search Bar</div>
+    <div class="box">Feature Card 1</div>
+    <div class="box">Feature Card 2</div>
+
+    <!-- Detail -->
+    <div class="box">
+        <div>Image</div>
+        <div>Description</div>
+        <div class="button">Action</div>
+    </div>
+
+    <!-- Profile -->
+    <div class="box">
+        <div>Profile Image</div>
+        <div>Username</div>
+        <div class="button">Settings</div>
+        <div class="button">Logout</div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="nav">
+        <div>Home</div>
+        <div>Search</div>
+        <div>Profile</div>
+    </div>
+
+</div>
+
+</body>
+</html>
